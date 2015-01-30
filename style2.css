@@ -4,7 +4,7 @@ body {
   font-family: helvetica neue, arial, sans-serif;
 
   background-color: ;
-  background-image: url(graywhite.jpg);
+  background-image: url(white-wallpaper.jpg);
   background-size: cover;
   background-position: center center;
 
@@ -49,8 +49,6 @@ h2 {
   color: white;
    margin-top: 20px;
 
-}
-
-
-
+h2 {
+  font-size: 22px;
 }
