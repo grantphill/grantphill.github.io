@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Contact-References</title>
     <!-- Logo Font -->
-    <link href="http://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet" type="text/css">
+     <link href='http://fonts.googleapis.com/css?family=Roboto:400,900' rel='stylesheet' type='text/css'>
 
     <link href='http://fonts.googleapis.com/css?family=Droid+Serif:700italic' rel='stylesheet' type='text/css'>
     <!-- Bootstrap -->
@@ -84,7 +84,7 @@
       
      <div class="col-md-12 summary">
     
-    <form action="mailto:grantphill@gmail.com" method="post">
+    <form enctype="text/plain" action="mailto:grantphill@gmail.com" method="get">
      
       <h3>Please fill in to receive updates</h3>
 
@@ -154,6 +154,14 @@
     </div>
  </div> 
  </div>
+
+ <form enctype="text/plain" method="get" action="mailto:grantphill@gmail.com">
+Your First Name: <input type="text" name="first_name"><br>
+Your Last Name: <input type="text" name="last_name"><br>
+Comments: <textarea rows="5" cols="30" name="comments"></textarea>
+<input type="submit" value="Send">
+</form>
+
 
    
 
