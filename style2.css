@@ -107,14 +107,12 @@ color: white;
 }
   
 
-.form-inline { 
-  border: 1px solid gray;
-  padding: 20px;
-  margin-top: px;
-  
-  }
+h3{ 
+  border-bottom: 1px solid gray;
+  font-family:'Droid+Serif:700italic';
+  color: #663399;
 
-  .form-inline h3 { 
-  margin-top: 1px;
   
-  }
+}
+
+  
